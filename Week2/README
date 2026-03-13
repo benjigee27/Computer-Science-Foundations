@@ -1,0 +1,29 @@
+# Week 2: Arrays & Cryptography
+
+This directory contains my solutions for CS50 Week 2. These projects focus on memory management, string manipulation, and the implementation of classic cryptographic algorithms.
+
+## Projects
+
+### 1. Caesar Cipher (caesar.c)
+A program that encrypts messages using Caesar’s cipher. 
+- Key Concepts: Command-line arguments, modular arithmetic, and ASCII mapping.
+- Logic: The program shifts each letter by a user-provided key while preserving case and ignoring non-alphabetic characters.
+
+### 2. Readability (readability.c)
+An implementation of the Coleman-Liau index to determine the reading grade level of a text.
+- Key Concepts: String parsing, floating-point math, and rounding.
+- Formula: index = 0.0588L - 0.296S - 15.8
+
+### 3. Scrabble (scrabble.c)
+A game that determines the winner of two words based on Scrabble point values.
+- Key Concepts: Global arrays, loops, and character-to-integer mapping.
+
+---
+
+## Skills Demonstrated
+- Data Validation: Ensuring users provide correct inputs (digits-only keys, command-line counts).
+- Security Foundations: Introduction to symmetric encryption and data encoding.
+- Precision: Handling edge cases like punctuation and wrap-around logic in ciphers.
+
+---
+Part of my MSc Computer Science preparation journey.
